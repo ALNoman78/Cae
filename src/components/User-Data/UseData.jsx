@@ -1,4 +1,5 @@
 import './user.css'
+import PropTypes from 'prop-types';
 
 const UseData = ({data , cartHandler}) => {
 

@@ -45,8 +45,8 @@ const User = () => {
             </div>
             <div className="grid">
             {
-                userData.map((data) => <UseData 
-                key={data.id} 
+                userData.map((data , idx) => <UseData 
+                key={idx} 
                 data={data} cartHandler={cartHandler} ></UseData>)
             }
             </div>
